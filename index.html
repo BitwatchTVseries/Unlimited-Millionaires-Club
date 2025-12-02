@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UMC — Unlimited Millionaires Club</title>
+  <style>
+    :root{
+      --royal:#004aad;
+      --royal-700:#003580;
+      --muted:#556078;
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --accent:#e3f0ff;
+      --radius:12px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background:var(--bg);
+      color:#1b2430;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.55;
+    }
+
+    header{
+      background:linear-gradient(90deg,var(--royal),var(--royal-700));
+      color:#fff;
+      padding:36px 18px;
+      text-align:center;
+    }
+    header h1{margin:0;font-size:28px;letter-spacing:0.4px}
+    header p{margin:6px 0 0;opacity:0.95}
+
+    .wrap{
+      width:92%;
+      max-width:1100px;
+      margin:26px auto 72px;
+    }
+
+    .hero{
+      display:flex;
+      gap:18px;
+      align-items:flex-start;
+      margin-bottom:18px;
+    }
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:0 6px 18px rgba(15,30,60,0.06);
+    }
+    .section-title{
+      color:var(--royal);
+      font-size:18px;
+      margin:0 0 12px;
+      padding-left:10px;
+      border-left:5px solid var(--royal);
+    }
+
+    .grid-2{
+      display:grid;
+      grid-template-columns:1fr 360px;
+      gap:18px;
+    }
+    @media (max-width:900px){ .grid-2{grid-template-columns:1fr; } }
+
+    ul{padding-left:18px;margin:8px 0 0}
+    table{width:100%;border-collapse:collapse;margin-top:10px}
+    table,th,td{border:1px solid #e0e6ef}
+    th{background:var(--royal);color:#fff;padding:10px}
+    td{padding:10px;text-align:center}
+
+    .package{
+      background:var(--accent);
+      border-left:5px solid var(--royal);
+    }
+
+    /* product image */
+    .product-img{
+      width:100%;
+      border-radius:8px;
+      display:block;
+      object-fit:cover;
+      box-shadow:0 8px 22px rgba(0,68,173,0.08);
+    }
+
+    .muted{color:var(--muted)}
+    .small{font-size:13px;color:#556078}
+
+    .founder{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+    }
+    .founder .photo{
+      width:96px;height:96px;border-radius:10px;background:linear-gradient(180deg,#fff,#f1f6ff);
+      display:flex;align-items:center;justify-content:center;color:var(--royal);font-weight:700;
+      box-shadow:0 6px 18px rgba(0,68,173,0.06);
+    }
+    .btn{
+      display:inline-block;
+      background:var(--royal);
+      color:#fff;
+      padding:10px 14px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(0,68,173,0.12);
+    }
+
+    footer{
+      max-width:1100px;margin:36px auto 80px;padding:18px;color:var(--muted);
+      text-align:center;font-size:13px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>UMC – Unlimited Millionaires Club</h1>
+    <p>Unlimited Income • Binary • Unilevel Infinity</p>
+  </header>
+
+  <main class="wrap">
+
+    <!-- Meaning -->
+    <section class="card" style="margin-bottom:18px">
+      <h2 class="section-title">✨ What is UMC? (Meaning)</h2>
+      <p style="margin-top:8px">
+        <strong>UMC – Unlimited Millionaires Club</strong> is an elite community dedicated to shaping new leaders,
+        entrepreneurs, and future millionaires. UMC provides members with knowledge, tools, and opportunities to grow,
+        succeed, and achieve financial freedom. Dito, walang limitasyon — everyone has the chance to become a
+        millionaire with the right mindset, effort, and system.
+      </p>
+    </section>
+
+    <div class="grid-2">
+
+      <div>
+        <!-- Binary Infinity -->
+        <section class="card" style="margin-bottom:18px">
+          <h2 class="section-title">🔵 1. BINARY INFINITY</h2>
+          <ul>
+            <li>Direct Referral – ₱300</li>
+            <li>Pairing Bonus – ₱400</li>
+            <li>Up to 18 pairs per cycle</li>
+            <li>Unlimited cycles per day</li>
+          </ul>
+          <p class="muted" style="margin-top:10px"><strong>Binary = Fast Income Mode</strong> — perfect for team builders who want quick payouts.</p>
+        </section>
+
+        <!-- Unilevel Infinity -->
+        <section class="card" style="margin-bottom:18px">
+          <h2 class="section-title">🔵 2. UNILEVEL INFINITY</h2>
+
+          <div style="margin-bottom:12px">
+            <h3 style="margin:0 0 8px">1️⃣ Distributor</h3>
+            <ul>
+              <li>Package: ₱2,800</li>
+              <li>Earn ₱10 per level (Level 1–10)</li>
+            </ul>
+          </div>
+
+          <div style="margin-bottom:12px">
+            <h3 style="margin:0 0 8px">2️⃣ Supervisor</h3>
+            <ul>
+              <li>Requirement: 30 Direct Distributors</li>
+              <li>₱10 per level + ₱15 override (Infinity)</li>
+              <li><strong>Total: ₱25 per level</strong></li>
+            </ul>
+          </div>
+
+          <div style="margin-bottom:12px">
+            <h3 style="margin:0 0 8px">3️⃣ Manager</h3>
+            <ul>
+              <li>Requirement: 30 Supervisors</li>
+              <li>₱10 per level + ₱30 override (Infinity)</li>
+              <li><strong>Total: ₱40 per level</strong></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 style="margin:0 0 8px">4️⃣ General Manager</h3>
+            <ul>
+              <li>Requirement: 30 Managers</li>
+              <li>₱10 per level + ₱60 override (Infinity)</li>
+              <li><strong>Total: ₱70 per level</strong></li>
+            </ul>
+          </div>
+
+          <div style="margin-top:14px">
+            <h3 style="margin:0 0 8px">💸 Unilevel Income Summary</h3>
+            <table>
+              <tr><th>Rank</th><th>Override Infinity</th><th>Total Per Level</th></tr>
+              <tr><td>Distributor</td><td>₱0</td><td>₱10</td></tr>
+              <tr><td>Supervisor</td><td>₱15</td><td>₱25</td></tr>
+              <tr><td>Manager</td><td>₱30</td><td>₱40</td></tr>
+              <tr><td>General Manager</td><td>₱60</td><td>₱70</td></tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- UMC Package -->
+        <section class="card package" style="margin-bottom:18px">
+          <h2 class="section-title">📦 UMC ENTRY PACKAGE – ₱2,800</h2>
+          <ul>
+            <li>1 bottle 35ml Super Moler (Super Molecule Drops)</li>
+            <li>1 bottle 60ml Molecule Spray</li>
+            <li>1000 UMC Token</li>
+            <li>100 Game Credits (Umpanalo Gaming)</li>
+            <li>Binary & Unilevel Infinity access</li>
+          </ul>
+          <p class="small" style="margin-top:8px">(Package includes product + tokens + gaming credits + membership access)</p>
+        </section>
+
+        <!-- UMC Token -->
+        <section class="card" style="margin-bottom:18px">
+          <h2 class="section-title">💎 UMC TOKEN</h2>
+          <p><strong>1000 UMC Token</strong> is included in the entry package. Ito ay digital asset na may potential tumaas ang value over time.</p>
+
+          <h3 style="margin-top:10px">📊 Token Details</h3>
+          <ul>
+            <li><strong>Token Name:</strong> Unlimited Millionaire's Club</li>
+            <li><strong>Symbol:</strong> UMC</li>
+            <li><strong>Total Supply:</strong> 210,000,000 UMC</li>
+            <li><strong>Decimals:</strong> 18</li>
+          </ul>
+
+          <h3 style="margin-top:10px">🪙 Token Benefits</h3>
+          <ul>
+            <li>📌 Puwede i-hold bilang long-term asset</li>
+            <li>📌 Puwede i-trade kapag tumaas ang market value</li>
+            <li>📌 Part of UMC ecosystem growth</li>
+            <li>✔ Automatic 10 USDT Allocation for UMC Token Buying per Package</li>
+            <li>✔ Upon activation, each member receives <strong>10 USDT</strong> in their wallet</li>
+            <li>✔ This 10 USDT is exclusively used to purchase <strong>UMC Tokens</strong></li>
+            <li>✔ Ensures continuous token demand and supports token value growth</li>
+          </ul>
+        </section>
+
+        <!-- Tokenomics -->
+        <section class="card" style="margin-bottom:18px">
+          <h2 class="section-title">📈 UMC TOKENOMICS</h2>
+          <ul>
+            <li><strong>Total Supply:</strong> 210,000,000 UMC</li>
+            <li><strong>Circulating Supply:</strong> Member Distribution Only (initial phase)</li>
+            <li><strong>Initial Release:</strong> Tokens included in entry packages (1000 UMC per member)</li>
+            <li><strong>Purpose:</strong> Ecosystem growth & community utility</li>
+          </ul>
+
+          <h3 style="margin-top:10px">🛠 Token Utilities</h3>
+          <ul>
+            <li>✔ Future marketplace purchases</li>
+            <li>✔ Exclusive member rewards</li>
+            <li>✔ Staking / holding benefits (planned)</li>
+            <li>✔ Internal trading as value increases</li>
+          </ul>
+
+          <h3 style="margin-top:10px">🚀 UMC Token Roadmap</h3>
+          <ul>
+            <li><strong>Phase 1:</strong> Member distribution — tokens included in packages</li>
+            <li><strong>Phase 2:</strong> UMC wallet integration</li>
+            <li><strong>Phase 3:</strong> Internal marketplace utility activation</li>
+            <li><strong>Phase 4:</strong> Staking & rewards system</li>
+            <li><strong>Phase 5:</strong> Open market expansion</li>
+          </ul>
+        </section>
+
+      </div>
+
+      <!-- Right column: product + founder + mission -->
+      <aside>
+        <!-- Product Image -->
+        <section class="card" style="text-align:center">
+          <h3 style="margin-top:0;color:var(--royal)">📸 UMC Products</h3>
+          <p class="small muted">Super Molecule Drops (35ml) & Molecule Spray (60ml)</p>
+          <!-- Replace the src below with your image URL (Imgur, Drive public link, S3, etc.) -->
+          <img class="product-img" src="your-image-file.jpg" alt="Super Molecule Drops & Molecule Spray">
+          <p class="small" style="margin-top:8px;color:#6b7380">(Replace <strong>your-image-file.jpg</strong> with actual image link)</p>
+        </section>
+
+        <!-- Founder -->
+        <section class="card" style="margin-top:18px">
+          <h3 style="margin-top:0;color:var(--royal)">👑 Founder</h3>
+          <div class="founder">
+            <div class="photo">LL</div>
+            <div>
+              <h4 style="margin:0 0 6px">Leonardo Lobo — Visionary Founder</h4>
+              <p class="small muted" style="margin:0 0 8px">Si Leonardo Lobo ang nagtayo ng UMC upang magbigay ng patas na oportunidad sa pagkakaroon ng sariling negosyo at financial freedom.</p>
+              <p style="margin:0;font-size:14px"><em>“Create leaders, build entrepreneurs, and uplift communities through smart and scalable earning systems.”</em></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Founder's Message -->
+        <section class="card" style="margin-top:18px">
+          <h3 style="margin-top:0;color:var(--royal)">✉️ Founder’s Message</h3>
+          <p class="small muted">
+            "Welcome to the <strong>Unlimited Millionaires Club (UMC)</strong>. I created this community with one mission —
+            to help ordinary people achieve extraordinary success. Hindi hadlang ang estado ng buhay, edad, o pinagdaanan
+            para maging matagumpay. Ang mahalaga ay ang tamang mindset, tamang sistema, at tamang grupo na susuporta sa'yo."
+          </p>
+          <p class="small muted" style="margin-top:8px">
+            "Dito sa UMC, hindi ka nag-iisa. Kasama mo kami sa bawat hakbang ng iyong journey — from learning, building,
+            earning, hanggang sa pag-abot ng tunay na financial freedom. Welcome to the movement. Welcome to UMC."
+          </p>
+          <p style="margin-top:10px;font-weight:700">— Leonardo Lobo, Founder</p>
+        </section>
+
+        <!-- Mission & Vision -->
+        <section class="card" style="margin-top:18px">
+          <h3 style="margin-top:0;color:var(--royal)">🌟 Mission & Vision</h3>
+          <h4 style="margin:8px 0 4px">Mission</h4>
+          <p class="small muted" style="margin:0 0 10px">
+            To empower individuals through a sustainable earning platform that provides education, opportunity,
+            and a proven system designed to uplift Filipino communities and create long-term financial growth.
+          </p>
+          <h4 style="margin:8px 0 4px">Vision</h4>
+          <p class="small muted" style="margin:0">
+            To build the largest community of digital entrepreneurs in the Philippines and beyond — a network of
+            leaders and achievers working together under the Unlimited Millionaires Club, creating a future where
+            success becomes accessible to everyone.
+          </p>
+        </section>
+
+      </aside>
+
+    </div>
+
+    <!-- Closing CTA -->
+    <section style="margin-top:20px;text-align:center">
+      <a class="btn" href="#contact">Join UMC Today — Avail Package ₱2,800</a>
+      <p class="small muted" style="margin-top:10px">Questions? Contact your upline or use the contact form (coming soon).</p>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> UMC — Unlimited Millionaires Club. All rights reserved.
+  </footer>
+
+  <script>
+    // small script to set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
